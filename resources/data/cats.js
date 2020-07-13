@@ -1,0 +1,58 @@
+export const data = [
+  {
+    id: '1',
+    image: require('../cat/cat_1.jpg'),
+    title: 'Cat 1',
+    description: 'Cat 1',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '2',
+    image: require('../cat/cat_2.jpg'),
+    title: 'Cat 2',
+    description: 'Cat 2',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '3',
+    image: require('../cat/cat_3.jpg'),
+    title: 'Cat 3',
+    description: 'Cat 3',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '4',
+    image: require('../cat/cat_4.jpg'),
+    title: 'Cat 4',
+    description: 'Cat 4',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '5',
+    image: require('../cat/cat_5.jpg'),
+    title: 'Cat 5',
+    description: 'Cat 5',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '6',
+    image: require('../cat/cat_6.jpg'),
+    title: 'Cat 6',
+    description: 'Cat 6',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '7',
+    image: require('../cat/cat_7.png'),
+    title: 'Cat 7',
+    description: 'Cat 7',
+    dimensions: { width: 150, height: 200 },
+  },
+  {
+    id: '8',
+    image: require('../cat/cat_8.jpg'),
+    title: 'Cat 8',
+    description: 'Cat 8',
+    dimensions: { width: 150, height: 200 },
+  },
+];
