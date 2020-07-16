@@ -1,23 +1,5 @@
-import React from 'react';
-
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-
-const ListItem = ({ onImageClick, image, title, description }) => {
-  return (
-    <View style={styles.listItem}>
-      <Image
-        onClick={onImageClick}
-        style={styles.listItem__image}
-        source={image}
-      />
-      <View style={styles.listItem__descriptionContainer}>
-        <Text style={styles.listItem__title}>{title}</Text>
-        <Text style={styles.listItem__description}>{description}</Text>
-      </View>
-    </View>
-  );
-};
 
 const styles = StyleSheet.create({
   header: {
@@ -51,4 +33,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListItem;
+export default styles;
